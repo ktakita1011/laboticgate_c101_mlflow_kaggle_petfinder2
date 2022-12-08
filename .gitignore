@@ -1,3 +1,5 @@
+.env
+
 *.bin
 jupyter.log
 .virtual_documents
