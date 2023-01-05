@@ -11,5 +11,10 @@ or
 $docker-compose up -d
 ```
 
-dockerコンテナが立ち上がるとjupyter server{http://localhost:8888}が立ち上がります。
+dockerコンテナが立ち上がると[jupyter server](http://localhost:8888)が立ち上がります。
 パスワードはrun.shに記載してあります。
+
+kaggle petfinder2の学習データはkaggleからダウンロードし、/workdir/work/inputディレクトリに配置してください。
+学習コードは
+/workdir/work/notebook/laboticgate_mlflow_logger_kaggle_petfinder2.ipynb
+となります。
