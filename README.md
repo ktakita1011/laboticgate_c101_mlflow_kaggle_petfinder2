@@ -1,21 +1,15 @@
-# What is this
-kaggle docker can use GPU  
-this docker-compose worked on docker-compose<=1.29.1 or higher
+# らぼちっくげーとmlflowとPyTorch Lightningを利用したらくらく実験管理のリポジトリ
+学習コードはこちらになります。
+dockerの学習環境を立ち上げて実行する流れです。
 
-how to use
+docker-composeのバージョンはdocker-compose<=1.29.1
+
+使い方
 ```
 $docker-compose up
 or
 $docker-compose up -d
 ```
 
-# something setting
-default python switch
-```
-alias python='/opt/conda/bin/python'
-```
-
-if u want to conda activate
-```
-source /opt/conda/bin/activate
-```
+dockerコンテナが立ち上がるとjupyter server{http://localhost:8888}が立ち上がります。
+パスワードはrun.shに記載してあります。
